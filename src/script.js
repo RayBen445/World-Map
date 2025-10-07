@@ -258,7 +258,7 @@ function render() {
 }
 
 function updateSize() {
-    const side = Math.min(500, Math.min(window.innerWidth, window.innerHeight) - 50);
+    const side = Math.min(800, Math.min(window.innerWidth, window.innerHeight) - 50);
     containerEl.style.width = side + "px";
     containerEl.style.height = side + "px";
     renderer.setSize(side, side);
